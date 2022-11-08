@@ -46,7 +46,11 @@
         </div>
         
         <div class="btn-div mt-2">
-            <button class="main-btn">Continue</button>
+          <button class="main-btn">
+              <a href="verification-code">
+                Continue
+              </a>
+          </button>
         </div>
         
       </div>

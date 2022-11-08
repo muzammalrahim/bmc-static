@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PersonalInfo from '../views/PersonalInfo.vue'
+import IssuingRegion from '../views/IssuingRegion.vue'
+import VerificationCode from '../views/VerificationCode.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +32,18 @@ const router = createRouter({
       path: '/personal-info',
       name: 'home',
       component: PersonalInfo
+    },
+    
+    {
+      path: '/verification-code',
+      name: 'verification-code',
+      component: VerificationCode
+    },
+
+    {
+      path: '/issue-region',
+      name: 'issue-region',
+      component: IssuingRegion
     },
     
   ]

@@ -2,7 +2,9 @@
     <div class="navbar-main">
       <b-container class="">
          <div class="logo-row pt-3 pb-3">
+          <a href="/">
             <img src="../assets/images/logo.svg" alt="logo">
+          </a>  
          </div>
       </b-container>
     </div>
