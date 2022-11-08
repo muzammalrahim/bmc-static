@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import PersonalInfo from '../views/PersonalInfo.vue'
 import IssuingRegion from '../views/IssuingRegion.vue'
 import VerificationCode from '../views/VerificationCode.vue'
+import CamAccess from '../views/CamAccess.vue'
+import UploadLicense from '../views/UploadLicense.vue'
+import UploadPassport from '../views/UploadPassport.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -52,18 +55,17 @@ const router = createRouter({
     {
       path: '/camAccess',
       name: 'camAccess',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/CamAccess.vue')
+      component: CamAccess
     },
     {
       path: '/uploadLicense',
       name: 'uploadLicense',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/UploadLicense.vue')
+      component: UploadLicense
+    },
+    {
+      path: '/uploadPassport',
+      name: 'uploadPassport',
+      component: UploadPassport
     },
   ]
 })
