@@ -13,9 +13,13 @@
         <div class="btn-div pt-5"> 
           <router-link to="/uploadLicense">
               <button class="main-btn">
-                CEnable Camera
+                Enable Camera
               </button>
             </router-link>
+        </div>
+        <div class="back-btn text-center pt-4">
+          <img src="../assets/images/arrow-left.png" alt="">
+          <button class="gray-btn">Back to previous</button>
         </div>
       </div>
   </div>
