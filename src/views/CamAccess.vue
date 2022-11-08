@@ -10,8 +10,11 @@
           <img src="../assets/images/camera.png">
           <p class="font-12 text-center">We cannot verify you without using your camera</p>
         </div>
-        <div class="btn-div pt-5">
-            <button class="main-btn">Enable camera</button>
+        <div class="btn-div pt-5"> 
+            <button class="main-btn">
+              <!-- <router-link to="/personal-info">Enable Camera</router-link> -->
+              Enable Camera
+            </button>
         </div>
       </div>
   </div>
