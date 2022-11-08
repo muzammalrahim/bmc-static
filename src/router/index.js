@@ -7,6 +7,8 @@ import FrontDoc from '../views/FrontDoc.vue'
 import CamAccess from '../views/CamAccess.vue'
 import UploadLicense from '../views/UploadLicense.vue'
 import UploadPassport from '../views/UploadPassport.vue'
+import PhotoSubmit from '../views/PhotoSubmit.vue'
+import TakeSelfi from '../views/TakeSelfi.vue'
 import FrontPicture from '../views/FrontPicture.vue'
 
 // import { createPopper } from '@popperjs/core';
@@ -73,6 +75,16 @@ const router = createRouter({
       path: '/uploadPassport',
       name: 'uploadPassport',
       component: UploadPassport
+    },
+    {
+      path: '/photo-submit',
+      name: 'photo-submit',
+      component: PhotoSubmit
+    },
+    {
+      path: '/take-selfi',
+      name: 'take-selfi',
+      component: TakeSelfi
     },
     {
       path: '/frontPicture',

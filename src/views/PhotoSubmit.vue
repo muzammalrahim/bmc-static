@@ -4,23 +4,25 @@
   </div>
   <div class="main-body-div">
       <div class="front-doc-main text-center">
-        <p class="font-14 pb-3">Make sure your details are clear and unobstructed</p>
+        <p class="font-14 pb-3">
+          Make sure your details are clear and unobstructed
+        </p>
 
-        <div class="pt-4">
-            <img src="../assets/images/CaptureArea.png">
+        <div class="py-3">
+          <div class="doc-image-wrap">
+            <img src="../assets/images/doc-image.png" alt=""> 
+          </div>
         </div>
         
         <div class="btn-div pt-4">
-          <router-link to="/photo-submit">
+          <router-link to="/take-selfi">
             <button class="main-btn">
-              Submit Photo
+              Submit photo
             </button>
           </router-link>
-        </div>
-        <div class="btn-div pt-4">
           <router-link to="#">
-            <button class="main-btn">
-              Retake Photo
+            <button class="light-btn">
+              Retake photo
             </button>
           </router-link>
         </div>
@@ -41,7 +43,7 @@ import FooterCompVue from '../components/FooterComp.vue';
 import LoaderComVue from '../components/LoaderCom.vue';
 export default {
   
-  name: 'FrontPicture',
+  name: 'PhotoSubmit',
   components: {
       NavBarVue,
       FooterCompVue,
