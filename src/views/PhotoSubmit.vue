@@ -15,7 +15,7 @@
         </div>
         
         <div class="btn-div pt-4">
-          <router-link to="/take-selfi">
+          <router-link to="/face-frame">
             <button class="main-btn">
               Submit photo
             </button>
