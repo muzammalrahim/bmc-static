@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import PersonalInfo from '../views/PersonalInfo.vue'
 import IssuingRegion from '../views/IssuingRegion.vue'
 import VerificationCode from '../views/VerificationCode.vue'
+import FrontDoc from '../views/FrontDoc.vue'
 import CamAccess from '../views/CamAccess.vue'
 import UploadLicense from '../views/UploadLicense.vue'
 import UploadPassport from '../views/UploadPassport.vue'
@@ -56,6 +57,11 @@ const router = createRouter({
       path: '/camAccess',
       name: 'camAccess',
       component: CamAccess
+    },
+    {
+      path: '/front-doc',
+      name: 'front-doc',
+      component: FrontDoc
     },
     {
       path: '/uploadLicense',
