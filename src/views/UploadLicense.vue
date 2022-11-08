@@ -43,7 +43,7 @@
           </ul>
         </div>
         <div class="btn-div pt-3"> 
-          <router-link to="/front-doc">
+          <router-link to="/uploadPassport">
             <button class="main-btn">
               Continue
             </button>
