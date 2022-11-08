@@ -10,6 +10,7 @@ import UploadPassport from '../views/UploadPassport.vue'
 import PhotoSubmit from '../views/PhotoSubmit.vue'
 import TakeSelfi from '../views/TakeSelfi.vue'
 import FrontPicture from '../views/FrontPicture.vue'
+import FaceFrame from '../views/FaceFrame.vue'
 import ThankYou from '../views/ThankYou.vue'
 import Verified from '../views/Verified.vue'
 
@@ -59,7 +60,7 @@ const router = createRouter({
     },
     
     {
-      path: '/camaccess',
+      path: '/camAccess',
       name: 'camAccess',
       component: CamAccess
     },
@@ -69,12 +70,12 @@ const router = createRouter({
       component: FrontDoc
     },
     {
-      path: '/uploadlicense',
+      path: '/uploadLicense',
       name: 'uploadLicense',
       component: UploadLicense
     },
     {
-      path: '/uploadpassport',
+      path: '/uploadPassport',
       name: 'uploadPassport',
       component: UploadPassport
     },
@@ -89,9 +90,14 @@ const router = createRouter({
       component: TakeSelfi
     },
     {
-      path: '/frontpicture',
+      path: '/frontPicture',
       name: 'frontPicture',
       component: FrontPicture
+    },
+    {
+      path: '/face-frame',
+      name: 'face-frame',
+      component: FaceFrame
     },
     {
       path: '/thankyou',
@@ -100,7 +106,7 @@ const router = createRouter({
     },
     {
       path: '/verified',
-      name : 'Verified',
+      name : 'verified',
       component: Verified
     }
   ]

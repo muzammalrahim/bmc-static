@@ -160,11 +160,18 @@ p{
   padding: 3px 0 !important;
   background-position: right -1px center !important;
 }
+.doc-area-img{
+  background: rgba(72, 72, 72, 0.93);
+  width: 650px;
+  border-radius: 10px;
+  text-align: center;
+}
 .doc-area{
   width: 650px;
   height: 300px;
   background: rgba(72, 72, 72, 0.93);
   border-radius: 10px;
+  overflow: hidden;
 }
 .doc-part{
   width: 325px;
@@ -236,6 +243,9 @@ p{
 
 
 @media only screen and (max-width: 425px) {
+  .main-body-div {
+    padding: 0 10px;
+}
   .idnetity-main{
     width: 100%;
     padding: 0 20px;
@@ -254,6 +264,9 @@ p{
   .doc-image-wrap {
     width: 300px;
     height: 180px;
+  }
+  .doc-area-img{
+    width: 100%;
   }
     
     
