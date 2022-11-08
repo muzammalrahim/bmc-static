@@ -28,11 +28,11 @@
       
         
         <div class="btn-div mt-2">
-          <button class="main-btn">
-              <a href="issue-region">
+          <router-link to="/issue-region">
+              <button class="main-btn">
                 Verify
-              </a>
-          </button>
+              </button>
+            </router-link>
         </div>
         <div class="auth-btn-div pt-2">
           <button class="gray-btn">Haven’t receive the code?</button>

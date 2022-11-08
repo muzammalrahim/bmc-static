@@ -67,7 +67,11 @@
         </div>
         
         <div class="btn-div mt-2">
-            <button class="main-btn">Continue</button>    
+          <router-link to="/camAccess">
+              <button class="main-btn">
+                Continue
+              </button>
+          </router-link>
         </div>
         <div class="back-btn text-center pt-4">
           <img src="../assets/images/arrow-left.png" alt="">

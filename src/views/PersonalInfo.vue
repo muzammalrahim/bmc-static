@@ -46,11 +46,11 @@
         </div>
         
         <div class="btn-div mt-2">
-          <button class="main-btn">
-              <a href="verification-code">
-                Continue
-              </a>
-          </button>
+          <router-link to="/verification-code">
+              <button class="main-btn">
+                Continu
+              </button>
+            </router-link>
         </div>
         
       </div>
