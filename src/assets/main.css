@@ -45,6 +45,11 @@ p{
 }
 
 /* Buttons */
+.btn-div{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
 .main-btn {
   background: #0796D0;
   border: 1px solid #EAEAEA;
@@ -66,6 +71,22 @@ p{
   background: #FFFFFF;
   color: #0796D0;
   border: 2px solid #0796D0;;
+}
+.light-btn{
+  background: #FFFFFF;
+  border: 1px solid #648D9D;
+  border-radius: 5px;
+  width: 379px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0796D0;
+}
+.light-btn:hover{
+  background: #0796D0;
+  border: 1px solid #648D9D;
+  color: #FFFFFF;
 }
 .gray-btn{
   border: none;
@@ -152,6 +173,16 @@ p{
   border-radius: 10px;
   margin: 0 auto;
 }
+.doc-image-wrap{
+  width: 430px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.doc-image-wrap img{
+  display: block;
+  width: 100%;
+}
 /* ==================================form css start==================================*/
 .form-fields {
   background: #FFFFFF;
@@ -220,6 +251,12 @@ p{
     height: 300px;
     padding: 20px;
   }
+  .doc-image-wrap {
+    width: 300px;
+    height: 180px;
+  }
+    
+    
 }
 
 @media only screen and (max-width: 375px) {

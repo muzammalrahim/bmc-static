@@ -1,7 +1,10 @@
 <template>
     <div class="navbar-main">
-      <b-container class="">
+      <b-container class="pt-4">
         <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <div>
+          <p class="font-12">Checking image quality</p>
+        </div>
       </b-container>
     </div>
   </template>
