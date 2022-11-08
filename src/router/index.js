@@ -11,6 +11,8 @@ import PhotoSubmit from '../views/PhotoSubmit.vue'
 import TakeSelfi from '../views/TakeSelfi.vue'
 import FrontPicture from '../views/FrontPicture.vue'
 import FaceFrame from '../views/FaceFrame.vue'
+import ThankYou from '../views/ThankYou.vue'
+import Verified from '../views/Verified.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -97,6 +99,16 @@ const router = createRouter({
       name: 'face-frame',
       component: FaceFrame
     },
+    {
+      path: '/thankyou',
+      name : 'thankyou',
+      component: ThankYou
+    },
+    {
+      path: '/verified',
+      name : 'verified',
+      component: Verified
+    }
   ]
 })
 
