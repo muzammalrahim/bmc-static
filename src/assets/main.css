@@ -62,7 +62,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 85vh;
 }
 
 .font-12{
@@ -74,12 +74,82 @@ p{
   font-size: 14px;
   color: #484848;
 }
+.ins-list li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ins-list li .list-span{
+  width: 20px;
+  height: 20px;
+  background: #0796D0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+
+/* ==================================form css start==================================*/
+.form-fields {
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.05));
+  padding: 10px 10px 10px 20px;
+  color: #06212C;
+}
+.phone-div {
+  position: relative;
+}
+.phone-div .form-fields{
+  padding: 10px 10px 10px 50px;
+}
+.phone-div img{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.custom-form-width{
+  width: 180px;
+  height: 50px;
+}
+.input-hf {
+  display: flex;
+  gap: 20px;
+}
+.form-control:focus{
+  border: 1px solid #0796D0 !important;
+  box-shadow: none !important;
+}
+.form-control::placeholder{
+  font-size: 12px;
+  color: rgba(72, 72, 72, 0.4);
+}
+/* ==================================form css End==================================*/
+
+
 
 /* ************************************media quries****************************************** */
+
+@media only screen and (max-width: 1440px) {
+  .main-body-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+}
+
 
 @media only screen and (max-width: 425px) {
   .idnetity-main{
     width: 100%;
     padding: 0 20px;
+  }
+  .main-btn{
+    width: 100%;
   }
 }
