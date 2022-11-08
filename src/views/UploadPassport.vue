@@ -4,20 +4,13 @@
   </div>
   <div class="main-body-div">
       <div class="idnetity-main">
-        <h3 class="">Upload Driver’s License</h3>
-        <div class="d-flex pb-3">
-            <div class="col-5 pt-2">
+        <h3 class="text-center">Upload Passport</h3>
+        <div class=" pb-3 d-flex justify-content-center pt-2">
+            <div class="pt-2 ">
                 <div class="border height d-flex justify-content-center align-items-center">
                   <img src="../assets/images/Upload.png">
                 </div>
-                <p class="text-center pt-1 font-8">Driver’s License Front</p>
-            </div>
-            <div class="col-1 pt-2"></div>
-            <div class="col-5 pt-2">
-              <div class="border height d-flex justify-content-center align-items-center">
-                  <img src="../assets/images/Upload.png">
-                </div>
-              <p class="text-center pt-1 font-8">Driver’s License Back</p>
+                <p class="text-center pt-1 font-8">Passport Page</p>
             </div>
         </div>
         <div class=" border">
@@ -43,11 +36,9 @@
           </ul>
         </div>
         <div class="btn-div pt-3"> 
-          <router-link to="/front-doc">
             <button class="main-btn">
               Continue
             </button>
-          </router-link>
         </div>
         <div class="back-btn text-center pt-4">
           <img src="../assets/images/arrow-left.png" alt="">
