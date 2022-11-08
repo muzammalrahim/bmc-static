@@ -22,7 +22,11 @@
         </div>
         
         <div class="btn-div">
-            <button class="main-btn">Choose document</button>
+          <router-link to="/personal-info">
+            <button class="main-btn">
+              Choose document 
+            </button>
+          </router-link>
         </div>
         <p class="text-center font-12 pt-3">
           Identity verification verified by BMC

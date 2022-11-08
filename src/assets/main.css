@@ -3,6 +3,7 @@
 
 body{
   font-family: 'Inter', sans-serif !important;
+  background: #FAFAFA;
 }
 ul{
   list-style: none;
@@ -55,8 +56,30 @@ p{
   line-height: 17px;
   color: #FFFFFF;
 }
-
-
+.main-btn a{
+  color: #FAFAFA;
+}
+.main-btn:hover a{
+  color: #0796D0;
+}
+.main-btn:hover{
+  background: #FFFFFF;
+  color: #0796D0;
+  border: 2px solid #0796D0;;
+}
+.gray-btn{
+  border: none;
+  background: none;
+  color: #858585 !important;
+  font-weight: 600;
+}
+.auth-btn-div{
+  display: flex;
+  justify-content: space-between;
+}
+.auth-btn-div .gray-btn{
+  font-size: 10px;
+}
 /* ====================common css styles=================== */
 .main-body-div{
   display: flex;
@@ -73,10 +96,17 @@ p{
   font-size: 8px;
   color: #858585;
 }
+.font-10{
+  font-size: 12px;
+  color: #484848;
+}
 
 .font-14{
   font-size: 14px;
   color: #484848;
+}
+.para-width{
+  width: 379px;
 }
 .ins-list li{
   display: flex;
@@ -94,8 +124,21 @@ p{
   font-size: 10px;
   color: #FFFFFF;
 }
-
-
+.radio-div{
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+.selct-field .form-select{
+  font-size: 12px;
+  font-weight: 600;
+  color: #484848;
+  border: none;
+  padding: 3px 0 !important;
+  background-position: right -1px center !important;
+}
 /* ==================================form css start==================================*/
 .form-fields {
   background: #FFFFFF;
@@ -154,6 +197,9 @@ p{
     padding: 0 20px;
   }
   .main-btn{
+    width: 100%;
+  }
+  .para-width{
     width: 100%;
   }
 }

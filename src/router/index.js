@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PersonalInfo from '../views/PersonalInfo.vue'
+import IssuingRegion from '../views/IssuingRegion.vue'
+import VerificationCode from '../views/VerificationCode.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -34,6 +36,19 @@ const router = createRouter({
       name: 'home',
       component: PersonalInfo
     },
+    
+    {
+      path: '/verification-code',
+      name: 'verification-code',
+      component: VerificationCode
+    },
+
+    {
+      path: '/issue-region',
+      name: 'issue-region',
+      component: IssuingRegion
+    },
+    
     {
       path: '/camAccess',
       name: 'camAccess',
