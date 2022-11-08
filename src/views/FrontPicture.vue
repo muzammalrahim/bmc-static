@@ -4,18 +4,23 @@
   </div>
   <div class="main-body-div">
       <div class="front-doc-main text-center">
-        <p class="font-14 pb-3">Position the front of your document in the frame</p>
+        <p class="font-14 pb-3">Make sure your details are clear and unobstructed</p>
 
-        <div class="doc-area py-5">
-          <div class="doc-part">
-            <LoaderComVue/>
-          </div>
+        <div class="pt-4">
+            <img src="../assets/images/CaptureArea.png">
         </div>
         
         <div class="btn-div pt-4">
-          <router-link to="frontPicture">
+          <router-link to="/photo-submit">
             <button class="main-btn">
-              Capture
+              Submit Photo
+            </button>
+          </router-link>
+        </div>
+        <div class="btn-div pt-4">
+          <router-link to="#">
+            <button class="main-btn">
+              Retake Photo
             </button>
           </router-link>
         </div>
@@ -36,7 +41,7 @@ import FooterCompVue from '../components/FooterComp.vue';
 import LoaderComVue from '../components/LoaderCom.vue';
 export default {
   
-  name: 'FrontDoc',
+  name: 'FrontPicture',
   components: {
       NavBarVue,
       FooterCompVue,
