@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import PersonalInfo from '../views/PersonalInfo.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -7,6 +8,14 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/',
+      name: 'bmc',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/BMCView.vue')
+    },
     {
       path: '/home',
       name: 'home',
@@ -21,21 +30,11 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/camAccess',
-      name: 'camAccess',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/camAccess.vue')
+      path: '/personal-info',
+      name: 'home',
+      component: PersonalInfo
     },
-    {
-      path: '/',
-      name: 'bmc',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/BMCView.vue')
-    }
+    
   ]
 })
 
