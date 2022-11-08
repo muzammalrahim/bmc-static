@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import PersonalInfo from '../views/PersonalInfo.vue'
 import IssuingRegion from '../views/IssuingRegion.vue'
 import VerificationCode from '../views/VerificationCode.vue'
+import FrontDoc from '../views/FrontDoc.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -56,6 +57,11 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/CamAccess.vue')
+    },
+    {
+      path: '/front-doc',
+      name: 'front-doc',
+      component: FrontDoc
     },
     {
       path: '/uploadLicense',
