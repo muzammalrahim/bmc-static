@@ -3,12 +3,12 @@
       <b-container class="">
          <div class="footer-inner pt-3 pb-3">
           <b-row>
-            <b-col md="6" sm="12">
+            <b-col lg="6" md="12" sm="12">
               <p class="font-12">
                 Copyright © 2022 BMC. All rights reserved.
               </p>
             </b-col>
-            <b-col md="6" sm="12" class="footer-left-list">
+            <b-col lg="6" md="12" sm="12" class="footer-left-list">
                 <ul class="footer-menu">
                   <li>
                     <a 
@@ -55,7 +55,7 @@
     gap: 20px;
   }
 
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 768px) {
     .footer-inner{
       text-align: center;
     }
