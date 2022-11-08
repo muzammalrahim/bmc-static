@@ -36,9 +36,11 @@
           </ul>
         </div>
         <div class="btn-div pt-3"> 
+          <router-link to="/front-doc">
             <button class="main-btn">
               Continue
             </button>
+          </router-link>
         </div>
         <div class="back-btn text-center pt-4">
           <img src="../assets/images/arrow-left.png" alt="">
@@ -56,7 +58,7 @@ import NavBarVue from '../components/NavBar.vue';
 import FooterCompVue from '../components/FooterComp.vue';
 export default {
   
-  name: 'UploadLicense',
+  name: 'UploadPassport',
   components: {
       NavBarVue,
       FooterCompVue
