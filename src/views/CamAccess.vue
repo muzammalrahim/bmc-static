@@ -7,7 +7,14 @@
         <h3 class="text-center">Allow camera access</h3>
         <p class="font-12 pt-2 text-center">When prompted, you must enable camera access to continue</p>
         <div class="text-center">
-          <img src="../assets/images/camera.png">
+          <!-- <img src="../assets/images/camera.svg"> -->
+          <lord-icon
+            src="https://cdn.lordicon.com/vixtkkbk.json"
+            trigger="hover"
+            colors="primary:#121331,secondary:#0796d0"
+            style="width:250px;height:250px">
+          </lord-icon>
+
           <p class="font-12 text-center">We cannot verify you without using your camera</p>
         </div>
         <div class="btn-div pt-5"> 
@@ -18,7 +25,7 @@
             </router-link>
         </div>
         <div class="back-btn text-center pt-4">
-          <img src="../assets/images/arrow-left.png" alt="">
+          <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
         </div>
       </div>

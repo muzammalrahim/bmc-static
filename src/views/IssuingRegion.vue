@@ -74,7 +74,7 @@
           </router-link>
         </div>
         <div class="back-btn text-center pt-4">
-          <img src="../assets/images/arrow-left.png" alt="">
+          <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
         </div>
         

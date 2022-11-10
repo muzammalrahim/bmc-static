@@ -10,7 +10,7 @@
 
         <div class="py-3">
           <div class="doc-image-wrap">
-            <img src="../assets/images/doc-image.png" alt=""> 
+            <img src="../assets/images/doc-image.svg" alt=""> 
           </div>
         </div>
         
@@ -27,7 +27,7 @@
           </router-link>
         </div>
         <div class="back-btn text-center pt-4">
-          <img src="../assets/images/arrow-left.png" alt="">
+          <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
         </div>
       </div>

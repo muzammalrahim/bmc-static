@@ -72,6 +72,17 @@ p{
   color: #0796D0;
   border: 2px solid #0796D0;;
 }
+.gray-fill-btn {
+  background: #A5A5A5;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  width: 379px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
 .light-btn{
   background: #FFFFFF;
   border: 1px solid #648D9D;
@@ -93,6 +104,21 @@ p{
   background: none;
   color: #858585 !important;
   font-weight: 600;
+  font-size: 12px;
+}
+.black-btn{
+  font-weight: 600;
+  font-size: 14px;
+  color: #3D3D3D;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #000;
+}
+.black-btn:hover{
+  color: #0796D0;
+}
+.blk-btn-div{
+  text-align: center;
 }
 .auth-btn-div{
   display: flex;
@@ -108,9 +134,15 @@ p{
   align-items: center;
   height: 85vh;
 }
+.main-body-div2{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
 
 .font-12{
-  font-size: 12px;
+  font-size: 14px;
   color: #858585;
 }
 .font-8{
@@ -229,6 +261,29 @@ p{
 /* ==================================form css End==================================*/
 
 
+/*  ==================================Scroll Css Start================================== */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #D9D9D9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0796D0;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3fb8e7;
+}
+/*  ==================================Scroll Css Start================================== */
+
 
 /* ************************************media quries****************************************** */
 
@@ -241,11 +296,20 @@ p{
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .main-body-div2{
+    width: 100%;
+    padding: 0 50px
+  }
+}
 
 @media only screen and (max-width: 425px) {
   .main-body-div {
     padding: 0 10px;
-}
+  }
+  .main-body-div2{
+    padding: 0 20px
+  }
   .idnetity-main{
     width: 100%;
     padding: 0 20px;

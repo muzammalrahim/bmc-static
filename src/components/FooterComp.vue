@@ -10,21 +10,20 @@
             </b-col>
             <b-col lg="6" md="12" sm="12" class="footer-left-list">
                 <ul class="footer-menu">
-                  <li>
+                  <!-- <li>
                     <a 
                       class="font-12" 
                       href="#"
                     >
                       Privacy Policy
                     </a>
-                  </li>
+                  </li> -->
                   <li>
-                    <a 
-                      class="font-12" 
-                      href="#"
-                    >
-                      Terms & Conditions
-                    </a>
+                    <router-link to="/terms-condition">
+                      <p class="font-12">
+                        Terms & Conditions
+                      </p>
+                    </router-link>
                   </li>
                 </ul>
             </b-col>
