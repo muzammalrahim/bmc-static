@@ -5,21 +5,22 @@
   <div class="main-body-div">
       <div class="idnetity-main">
         <div class="d-flex justify-content-center align-items-center">
-          <img src="../assets/images/radioTick.svg">
+          <img src="../assets/images/close-red.svg">
         </div>
-        <h3 class="pt-4 pb-2 text-center">We’ve verified your identity</h3>
-        <p class="font-12 text-center">We have generated a Blockchain Made 
+        <h3 class="pt-4 pb-2 text-center">
+          We’ve been unable to verify you
+        </h3>
+        <p class="font-12 text-center">
+          At this time, we have been unable to verify you. 
           <br>
-          Certificate (BMC) as proof of verification.
+          You may restart this process to try again.
         </p>
-        <div class="d-flex justify-content-center align-items-center">
-          <img src="../assets/images/qrcode.svg">
-        </div>
+       
         
-        <div class="btn-div pt-4">
-          <router-link to="/failed">
-            <button class="main-btn">
-              Download BMC
+        <div class="btn-div blk-btn-div pt-4">
+          <router-link to="/">
+            <button class="black-btn">
+              Start again
             </button>
           </router-link>
         </div>
@@ -35,7 +36,7 @@ import NavBarVue from '../components/NavBar.vue';
 import FooterCompVue from '../components/FooterComp.vue';
 export default {
   
-  name: 'ThankYou',
+  name: 'FailedView',
   components: {
       NavBarVue,
       FooterCompVue

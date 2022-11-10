@@ -13,6 +13,10 @@ import FrontPicture from '../views/FrontPicture.vue'
 import FaceFrame from '../views/FaceFrame.vue'
 import ThankYou from '../views/ThankYou.vue'
 import Verified from '../views/Verified.vue'
+import UploadPermit from '../views/UploadPermit.vue'
+import FailedView from '../views/FailedView.vue'
+import BMCViewChecked from '../views/BMCViewChecked.vue'
+import TermCondition from '../views/TermCondition.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -27,6 +31,11 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/BMCView.vue')
+    },
+    {
+      path: '/verified-info',
+      name: 'verified-info',
+      component: BMCViewChecked
     },
     {
       path: '/home',
@@ -75,9 +84,14 @@ const router = createRouter({
       component: UploadLicense
     },
     {
-      path: '/uploadPassport',
-      name: 'uploadPassport',
+      path: '/upload-passport',
+      name: 'upload-passport',
       component: UploadPassport
+    },
+    {
+      path: '/upload-permit',
+      name: 'upload-permit',
+      component: UploadPermit
     },
     {
       path: '/photo-submit',
@@ -105,9 +119,19 @@ const router = createRouter({
       component: ThankYou
     },
     {
+      path: '/failed',
+      name : 'failed',
+      component: FailedView
+    },
+    {
       path: '/verified',
       name : 'verified',
       component: Verified
+    },
+    {
+      path: '/terms-condition',
+      name : 'terms-condition',
+      component: TermCondition
     }
   ]
 })

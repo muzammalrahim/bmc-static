@@ -35,12 +35,12 @@
             <div class="phone-div">
               <b-form-input
               id="input-1"
-              type="number"
+              type="text"
               placeholder="+1 (XXX) XXX-XXXX"
               class="form-fields mt-3"
               >
               </b-form-input>
-              <img src="../assets/images/flag-icon.png" alt="logo">
+              <img src="../assets/images/flag-icon.svg" alt="logo">
             </div>
           </b-form>
         </div>
@@ -48,7 +48,7 @@
         <div class="btn-div mt-2">
           <router-link to="/verification-code">
               <button class="main-btn">
-                Continu
+                Continue
               </button>
             </router-link>
         </div>

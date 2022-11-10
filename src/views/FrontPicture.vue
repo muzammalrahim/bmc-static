@@ -7,7 +7,7 @@
         <p class="font-14 pb-3">Make sure your details are clear and unobstructed</p>
 
         <div class="pt-4">
-            <img src="../assets/images/CaptureArea.png">
+            <img src="../assets/images/CaptureArea.svg">
         </div>
         
         <div class="btn-div pt-4">
@@ -19,13 +19,13 @@
         </div>
         <div class="btn-div pt-4">
           <router-link to="#">
-            <button class="main-btn">
+            <button class="light-btn">
               Retake Photo
             </button>
           </router-link>
         </div>
         <div class="back-btn text-center pt-4">
-          <img src="../assets/images/arrow-left.png" alt="">
+          <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
         </div>
       </div>

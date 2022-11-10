@@ -22,8 +22,8 @@
         </div>
         
         <div class="btn-div">
-          <router-link to="/verified-info">
-            <button class="gray-fill-btn">
+          <router-link to="/personal-info">
+            <button class="main-btn">
               Choose document 
             </button>
           </router-link>
@@ -43,7 +43,7 @@ import NavBarVue from '../components/NavBar.vue';
 import FooterCompVue from '../components/FooterComp.vue';
 export default {
   
-  name: 'BMCView',
+  name: 'BMCViewChecked',
   components: {
       NavBarVue,
       FooterCompVue
