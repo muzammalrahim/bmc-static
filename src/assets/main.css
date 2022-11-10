@@ -332,7 +332,18 @@ p{
   .doc-area-img{
     width: 100%;
   }
-    
+  .gray-fill-btn{
+    width: 100%;
+  }
+  .custom-form-width{
+    width: 100%;
+  }
+  .per-info-main {
+    padding: 0 20px;
+  }
+  .verification-main {
+    padding: 0 10px;
+}
     
 }
 
