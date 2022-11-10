@@ -343,7 +343,16 @@ p{
   }
   .verification-main {
     padding: 0 10px;
-}
+  }
+  .light-btn{
+    width: 100%;
+  }
+  .front-doc-main{
+    padding: 0 20px;
+  }
+  .front-doc-main .userf-img{
+    width: 100%;
+  }
     
 }
 
