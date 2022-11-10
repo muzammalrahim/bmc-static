@@ -7,7 +7,7 @@
         <p class="font-14 pb-3">Make sure your details are clear and unobstructed</p>
 
         <div class="pt-4">
-            <img src="../assets/images/CaptureArea.svg">
+            <img class="userf-img" src="../assets/images/CaptureArea.svg">
         </div>
         
         <div class="btn-div pt-4">
