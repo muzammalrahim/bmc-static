@@ -357,6 +357,20 @@ p{
   margin: 0 10px 0 0;
 }
 
+.view-inner-area{
+  padding: 70px 0 0 0;
+}
+.view-inner-area .clr{
+  color: #A0A0A0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.view-inner-area .con{
+  color: #3D3D3D;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 /* ====================Dashbord Tabs End===================== */
 
 /* ====================common css styles=================== */
