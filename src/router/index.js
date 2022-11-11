@@ -15,8 +15,16 @@ import ThankYou from '../views/ThankYou.vue'
 import Verified from '../views/Verified.vue'
 import UploadPermit from '../views/UploadPermit.vue'
 import FailedView from '../views/FailedView.vue'
-import BMCViewChecked from '../views/BMCViewChecked.vue'
 import TermCondition from '../views/TermCondition.vue'
+
+// Dashboard
+import WelcomBack from '../views/WelcomBack.vue'
+import DashboardDocMian from '../views/DashboardDocMian.vue'
+import DashboardCamera from '../views/DashboardCamera.vue'
+import DashboardTableMain from '../views/DashboardTableMain.vue'
+import DashboardScan from '../views/DashboardScan.vue'
+import DashboardUploadQR from '../views/DashboardUploadQR.vue'
+import DashboardViewQR from '../views/DashboardViewQR.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -31,11 +39,6 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/BMCView.vue')
-    },
-    {
-      path: '/verified-info',
-      name: 'verified-info',
-      component: BMCViewChecked
     },
     {
       path: '/home',
@@ -132,7 +135,44 @@ const router = createRouter({
       path: '/terms-condition',
       name : 'terms-condition',
       component: TermCondition
-    }
+    },
+
+    // -----------------dashboard-----------------
+    {
+      path: '/login',
+      name: 'login',
+      component: WelcomBack
+    },
+    {
+      path: '/doc-main',
+      name: 'doc-main',
+      component: DashboardDocMian
+    },
+    {
+      path: '/dashboard-cam',
+      name: 'dashboard-cam',
+      component: DashboardCamera
+    },
+    {
+      path: '/dashboard-table',
+      name: 'dashboard-table',
+      component: DashboardTableMain
+    },
+    {
+      path: '/dashboard-scan',
+      name: 'Dashboard-Scan',
+      component: DashboardScan
+    },
+    {
+      path: '/upload-qr',
+      name: 'upload-qr',
+      component: DashboardUploadQR
+    },
+    {
+      path: '/view-qr',
+      name: 'view-qr',
+      component: DashboardViewQR
+    },
   ]
 })
 

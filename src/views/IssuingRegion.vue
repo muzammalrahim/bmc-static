@@ -62,17 +62,23 @@
                   <b>DRIVER’S LICENSE</b>
                 </p>
               </b-form-radio>
+              
             </div>
           </div>
         </div>
         
         <div class="btn-div mt-2">
           <router-link to="/camAccess">
-              <button class="main-btn">
+              <button 
+                class="main-btn"
+                :disabled="!checked"
+              >
                 Continue
               </button>
           </router-link>
         </div>
+
+        
         <div class="back-btn text-center pt-4">
           <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
@@ -88,12 +94,18 @@
 
 import NavBarVue from '../components/NavBar.vue';
 import FooterCompVue from '../components/FooterComp.vue';
+
 export default {
-  
+   
   name: 'IssuingRegion',
   components: {
       NavBarVue,
       FooterCompVue
+  },
+  data() {
+    return {
+      checked : false
+    }
   },
 }
 </script>
