@@ -222,6 +222,14 @@ p{
   display: block;
   width: 100%;
 }
+.rerm-con-text{
+  text-decoration-line: underline;
+  color: #0796D0;
+}
+.form-check-input:checked{ 
+  background-color:#0796D0;  
+  border-color: #0796D0;
+}
 /* ==================================form css start==================================*/
 .form-fields {
   background: #FFFFFF;

@@ -20,11 +20,24 @@
             </li>
           </ul>
         </div>
+
+        <div class="pb-2">
+            <b-form-checkbox size="sm">
+              <p class="font-12">
+                I have read and accept the 
+                <router-link to="/terms-condition">
+                  <span class="rerm-con-text">
+                    terms and conditions
+                  </span>
+                </router-link> 
+              </p>
+            </b-form-checkbox>
+        </div>
         
         <div class="btn-div">
           <router-link to="/verified-info">
             <button class="gray-fill-btn">
-              Choose document 
+              Get started
             </button>
           </router-link>
         </div>
