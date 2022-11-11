@@ -20,18 +20,47 @@
             </li>
           </ul>
         </div>
+
+        <div id="app" class="pb-2">
+          
+            
+              <b-form-checkbox
+                id="checkbox-1"
+                v-model="checked"
+                size="sm"
+                type="checkbox"
+              >
+              <p class="font-12">
+                I have read and accept the 
+                <router-link to="/terms-condition">
+                  <span class="rerm-con-text">
+                    terms and conditions
+                  </span>
+                </router-link> 
+              </p>
+            </b-form-checkbox>  
+        </div>
+        
+        
         
         <div class="btn-div">
-          <router-link to="/verified-info">
-            <button class="gray-fill-btn">
-              Choose document 
+          <router-link to="/personal-info">
+            <button 
+              :disabled="!checked"
+              class="main-btn"
+            >
+              Get started
             </button>
           </router-link>
+         
+          
         </div>
         <p class="text-center font-12 pt-3">
           Identity verification verified by BMC
         </p>
       </div>
+
+      
   </div>
   <FooterCompVue/>
 </template>
@@ -43,13 +72,23 @@ import NavBarVue from '../components/NavBar.vue';
 import FooterCompVue from '../components/FooterComp.vue';
 export default {
   
+  
   name: 'BMCView',
   components: {
       NavBarVue,
       FooterCompVue
   },
+  data() {
+    return {
+      checked : false
+    }
+  }
+  
 }
+
+
 </script>
+
 
 <style scoped>
 </style>
