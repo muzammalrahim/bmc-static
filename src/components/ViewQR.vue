@@ -38,23 +38,23 @@
                 </div>
 
                 <!---------------- Inner Content ----------------->
-                <div class="view-inner-area d-flex">
-                    <div class="col-6 border bg-clr">
+                <div class="view-inner-area d-flex row ">
+                    <div class="col-md-6 border bg-clr d-flex flex-column">
                         <div class=" pb-5">
                             <div class="float-end">
                                 <img class="" src="../assets/images/verified-tick.svg" alt="">
                             </div>
                         </div>
-                        <div class="p-5 xxl:pb-5">
+                        <div class="pt-5 xxl:pb-5">
                             <img src="../assets/images/license.svg" alt="">
                         </div>
                         <div class="pt-5 pb-2">
-                            <p class="clr-lic">
+                            <p class="clr-lic pt-5">
                                 This is a valid Blockchain Made Certificate
                             </p>
                         </div>
                     </div>
-                    <div class="col-6 border bg-clr2">
+                    <div class="col-md-6 border bg-clr2">
                         <div class="pb-3">
                            
                         </div>
