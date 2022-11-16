@@ -21,13 +21,13 @@ h1, h2, h3, h4, h5{
 }
 h1{}
 h2{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-size: 28px;
   color: #000000;
   font-weight: 600;
 }
 h3{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -35,14 +35,14 @@ h3{
   color: #484848;
 }
 h4{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   color: #000000;
 }
 h5{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -51,7 +51,7 @@ h5{
 }
 
 p{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   color: #484848;
   margin: 0;
 }
@@ -523,7 +523,7 @@ p{
 
 .font-12{
   font-size: 14px;
-  color: #858585;
+  color: #484848;
 }
 .font-8{
   font-size: 8px;
@@ -617,6 +617,9 @@ p{
 .form-check-input:checked{ 
   background-color:#0796D0;  
   border-color: #0796D0;
+}
+.form-select:focus{
+  box-shadow: none !important;
 }
 /* ==================================form css start==================================*/
 .form-fields {
@@ -749,9 +752,13 @@ p{
   .ins-list li {
     padding: 0 0 20px 0;
   }
-  .ins-list li p{
-    color: #FFFFFF;
+
+  .dashboard-bottom {
+    margin-top: 30px;
+    position: unset;
+    width: 100% !important;
   }
+  
 }
 
 @media only screen and (max-width: 425px) {
@@ -827,11 +834,18 @@ p{
   .inner-border-styling{
     padding: 6rem !important;
   }
-  .dashboard-bottom {
-    margin-top: 30px;
-    position: unset;
-    width: 100% !important;
+  .dashbord-inner-area .clr {
+    font-size: 12px;
   }
+  .dashbord-inner-area .con {
+    font-size: 11px;
+    font-weight: 500;
+}
+.dow-btn {
+  width: 180px !important;
+  font-size: 12px !important;
+}
+ 
 }
 
 @media only screen and (max-width: 375px) {

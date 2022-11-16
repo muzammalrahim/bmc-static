@@ -33,6 +33,7 @@
             </p>
             <div class="radio-div">
               <b-form-radio 
+              v-model="checked"
               name="radio-size"
               class=""
               >
@@ -79,7 +80,8 @@
         </div>
 
         
-        <div class="back-btn text-center pt-4">
+        
+        <div class="back-btn text-center pt-3 pb-5">
           <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
         </div>
@@ -96,12 +98,13 @@ import NavBarVue from '../components/NavBar.vue';
 import FooterCompVue from '../components/FooterComp.vue';
 
 export default {
-   
   name: 'IssuingRegion',
   components: {
       NavBarVue,
       FooterCompVue
   },
+
+  
   data() {
     return {
       checked : false

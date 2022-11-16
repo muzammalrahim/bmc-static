@@ -49,29 +49,31 @@
                                     </div>
 
                                     <!---------------- Inner Content ----------------->
+                                   
+                                    <!-- old -->
                                     <div class="dashbord-inner-area d-flex">
                                         <div class="img-area ">
                                             <img class="size" src="../assets/images/QR.svg" alt="">
                                         </div>
-                                        <div class="content-area text-start col-10 ps-5">
+                                        <div class="content-area text-start col-10 ps-2 ps-md-5 pt-4 pt-md-0">
                                             <div class="d-flex">
-                                                <div class="col-2 clr">
+                                                <div class="col-4 col-md-2 clr">
                                                     ID
                                                 </div>
-                                                <div class=" col-10 con">
+                                                <div class=" col-8 col-md-10 con">
                                                     458763
                                                 </div>
                                             </div>
                                             <div class="d-flex pt-3">
-                                                <div class=" col-2 clr">
+                                                <div class="col-4 col-md-2 clr">
                                                     File Name 
                                                 </div>
-                                                <div class=" col-10 con">
+                                                <div class=" col-8 col-md-10 con">
                                                     passport_23456789.pdf
                                                 </div>
                                             </div>
                                             <div class="d-flex pt-3">
-                                                <div class=" col-2 clr">
+                                                <div class="col-4 col-md-2 clr">
                                                     Hash
                                                 </div>
                                                 <div class=" xxl:col-6 con">
@@ -84,18 +86,18 @@
                                                 </div>
                                             </div>
                                             <div class="d-flex pt-3">
-                                                <div class=" col-2 clr">
+                                                <div class="col-4 col-md-2 clr">
                                                     Upload Date
                                                 </div>
-                                                <div class=" col-10 con">
+                                                <div class=" col-8 col-md-10 con">
                                                     1 October 2022, 14:45:21
                                                 </div>
                                             </div>
                                             <div class="d-flex pt-3">
-                                                <div class=" col-2 clr">
+                                                <div class="col-4 col-md-2 clr">
                                                     Download
                                                 </div>
-                                                <div class=" col-10 con">
+                                                <div class=" col-8 col-md-10 con">
                                                     <button class="dow-btn">
                                                         Download BMC QR
                                                     </button>

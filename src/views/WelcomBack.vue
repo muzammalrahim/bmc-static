@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-    <NavBarVue/>
+    <DashboardHeader/>
   </div>
   <div class="main-body-div">
       <div class="auth-main">
@@ -51,13 +51,13 @@
 
 <script>
 
-import NavBarVue from '../components/NavBar.vue';
+import DashboardHeader from '../components/DashboardHeader.vue';
 import FooterComDashboard from '../components/FooterComDashboard.vue';
 export default {
   
   name: 'WelcomBack',
   components: {
-    NavBarVue,
+    DashboardHeader,
     FooterComDashboard
 },
 }
