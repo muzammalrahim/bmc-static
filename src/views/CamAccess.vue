@@ -18,13 +18,13 @@
           <p class="font-12 text-center">We cannot verify you without using your camera</p>
         </div>
         <div class="btn-div pt-5"> 
-          <router-link to="/uploadLicense">
-              <button class="main-btn">
+          <!-- <router-link> -->
+              <button class="main-btn" @click="handleCamera()">
                 Enable Camera
               </button>
-            </router-link>
+            <!-- </router-link> -->
         </div>
-        <div class="back-btn text-center pt-4">
+        <div class="back-btn text-center pt-4" @click="$router.go(-1)">
           <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
         </div>
@@ -45,6 +45,19 @@ export default {
       NavBarVue,
       FooterCompVue
   },
+  methods: {
+    handleCamera() {
+      const checked = localStorage.getItem("checked")
+      console.log("checked", typeof checked);
+      if (checked == "passport") {
+        this.$router.push({name: "upload-passport"})
+      } else if (checked == "residence") {
+        this.$router.push({name: "uploadLicense"})
+      } else {
+        this.$router.push({name: "upload-permit"})
+      }
+    }
+  }
 }
 </script>
 
