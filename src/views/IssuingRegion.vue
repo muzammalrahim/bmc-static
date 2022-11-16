@@ -31,9 +31,12 @@
                 value="passport"
                 class=""
                 >
+                <div class="radio-inner">
                   <p class="font-12">
                     <b>PASSPORT</b>
                   </p>
+                </div>
+                  
                 </b-form-radio>
               </div>
   
@@ -44,9 +47,12 @@
                 value="residence"
                 class=""
                 >
-                  <p class="font-12">
-                    <b>RESIDENCE PERMIT</b>
-                  </p>
+                  <div class="radio-inner">
+                    <p class="font-12">
+                      <b>RESIDENCE PERMIT</b>
+                    </p>
+                  </div>
+                  
                 </b-form-radio>
               </div>
   
@@ -57,9 +63,11 @@
                 value="license"
                 class=""
                 >
+                <div class="radio-inner">
                   <p class="font-12">
                     <b>DRIVER’S LICENSE</b>
                   </p>
+                </div>
                 </b-form-radio>
                 
               </div>

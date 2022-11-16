@@ -604,6 +604,9 @@ p{
 .h-auto p{
   color: #0796D0;
 }
+.radio-inner{
+  width: 300px;
+}
 .radio-div-slct option{
   border: none !important;
   font-size: 14px;
@@ -892,12 +895,14 @@ p{
   .dashbord-inner-area .con {
     font-size: 11px;
     font-weight: 500;
-}
+  }
 .dow-btn {
   width: 180px !important;
   font-size: 12px !important;
-}
- 
+  }
+  .radio-inner{
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
