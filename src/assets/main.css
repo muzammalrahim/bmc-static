@@ -370,7 +370,13 @@ p{
   font-size: 14px;
   font-weight: 700;
 }
-
+.nav-item{
+  padding-right: 15px;
+}
+.nav-item button{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 /* ====================Dashbord Tabs End===================== */
 
 /* ====================common css styles=================== */
@@ -466,7 +472,7 @@ p{
   border: none;
 }
 .t-row:first-child{
-  border-top: 20px solid #FFFFFF;
+  border-top: 20px solid #FAFAFA;
 }
 .text-green{
   color: #2F7669 !important;
@@ -817,6 +823,9 @@ p{
 }
 
 @media only screen and (max-width: 425px) {
+  h2{
+    font-size: 20px;
+  }
   .main-body-div {
     padding: 0 10px;
   }
@@ -903,10 +912,37 @@ p{
   .radio-inner{
     width: 200px;
   }
+  .dashbord-tabs .nav-tabs .nav-link{
+    font-size: 12px;
+  }
+  .dashbord-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    font-size: 12px !important;
+  }
+  .pagination a{
+    padding: 8px 12px;
+  }
+  .heading-area p{
+    font-size: 12px;
+  }
+  .view-inner-area {
+    padding: 30px 0 0 0;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .doc-part {
     width: 250px;
+  }
+  .navigation__links{
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .body-div{
+    padding: 10px;
+  }
+  .dashbord-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    font-size: 11px !important;
   }
 }

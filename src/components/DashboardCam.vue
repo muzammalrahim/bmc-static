@@ -21,8 +21,8 @@
             <!---------------- header End----------------->
 
             <div class="body-inner">
-                <div class="idnetity-main">
-                    <h3 class="text-center">Allow camera access</h3>
+                <div class="idnetity-main pt-5 pt-md-0">
+                    <h3 class="text-center pt-2 pt-md-0">Allow camera access</h3>
                     <p class="font-12 pt-2 text-center">When prompted, you must enable camera access to continue</p>
                     <div class="text-center">
                     <!-- <img src="../assets/images/camera.svg"> -->
