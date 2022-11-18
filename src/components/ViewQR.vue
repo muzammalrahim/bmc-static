@@ -20,7 +20,7 @@
                 </div>
                 <!---------------- header End----------------->
                     <!---------------- Alert  ----------------->
-                <div class="success-chip mt-5">
+                <div class="success-chip mt-3 mt-md-5">
                     <span>
                         <img src="../assets/images/green-tick-icon.svg" alt="icon">
                     </span>
@@ -33,23 +33,23 @@
                 </div>
 
                 <!---------------- Inner Heading ----------------->
-                <div class="inner-heading mt-5">
+                <div class="inner-heading mt-3 mt-md-5">
                     <h4>Result</h4>
                 </div>
 
                 <!---------------- Inner Content ----------------->
-                <div class="view-inner-area d-flex row ">
+                <div class="view-inner-area d-flex row">
                     <div class="col-md-6 border bg-clr d-flex flex-column">
                         <div class=" pb-3">
                             <div class="float-end">
                                 <img class="pt-2" src="../assets/images/verified-tick.svg" alt="">
                             </div>
                         </div>
-                        <div class="pt-5 xxl:pb-5">
+                        <div class="pt-2 pt-md-5 xxl:pb-5">
                             <img src="../assets/images/license.svg" alt="">
                         </div>
-                        <div class="pt-5 pb-2">
-                            <p class="clr-lic pt-5">
+                        <div class="pt-2 pt-md-5 pb-2">
+                            <p class="clr-lic pt-2 pt-md-5">
                                 This is a valid Blockchain Made Certificate
                             </p>
                         </div>
@@ -58,13 +58,13 @@
                         <div class="pb-3">
                            
                         </div>
-                        <div class="pt-5 ps-md-5 ">
+                        <div class="dashbord-inner-area pt-3 pt-md-5 ps-md-5 ">
                            <div class="text-center text-sm-start">
                                 <h3>
                                     BMC Information
                                 </h3>
                            </div>
-                            <div class=" text-start pt-5">
+                            <div class=" text-start pt-3 pt-md-5">
                                 <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
                                     <div class="col-sm-2 clr">
                                         ID

@@ -108,7 +108,7 @@
                                 <a href="#">3</a>
                                 <a href="#">4</a>
                                 <a href="#">5</a>
-                                <a href="#">6</a>
+                                <!-- <a href="#">6</a> -->
                                 <a href="#">
                                     <img src="./../assets/images/right-arrow-gray.svg" class="" alt="icon">
                                 </a>

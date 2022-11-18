@@ -173,6 +173,7 @@ const router = createRouter({
       name: 'view-qr',
       component: DashboardViewQR
     },
+    
   ]
 })
 

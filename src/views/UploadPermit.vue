@@ -42,7 +42,7 @@
             </button>
           </router-link>
         </div>
-        <div class="back-btn text-center pt-4">
+        <div class="back-btn text-center pt-4" @click="$router.go(-1)">
           <img src="../assets/images/arrow-left.svg" alt="">
           <button class="gray-btn">Back to previous</button>
         </div>

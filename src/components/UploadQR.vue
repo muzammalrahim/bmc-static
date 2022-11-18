@@ -31,7 +31,7 @@
                                 <div class="dash-tab-inner">
 
                                     <!---------------- Alert  ----------------->
-                                    <div class="success-chip mt-5">
+                                    <div class="success-chip mt-2 mt-md-5">
                                         <span>
                                             <img src="../assets/images/green-tick-icon.svg" alt="icon">
                                         </span>
@@ -44,11 +44,13 @@
                                     </div>
 
                                     <!---------------- Inner Heading ----------------->
-                                    <div class="inner-heading mt-5">
+                                    <div class="inner-heading mt-3 mt-md-5">
                                         <h4>Result</h4>
                                     </div>
 
                                     <!---------------- Inner Content ----------------->
+                                   
+                                    <!-- old -->
                                     <div class="dashbord-inner-area d-flex">
                                         <div class="img-area ">
                                             <img class="size" src="../assets/images/QR.svg" alt="">

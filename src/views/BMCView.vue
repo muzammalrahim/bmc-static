@@ -15,7 +15,7 @@
               <p class="font-14">Scan your identity document</p>
             </li>
             <li class="pb-3">
-              <span class="list-span">1</span>
+              <span class="list-span">2</span>
               <p class="font-14">Take a photo of your face</p>
             </li>
           </ul>
@@ -56,7 +56,7 @@
           
         </div>
         <p class="text-center font-12 pt-3">
-          Identity verification verified by BMC
+          <i>Identity verification verified by BMC</i>
         </p>
       </div>
 

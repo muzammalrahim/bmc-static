@@ -21,13 +21,13 @@ h1, h2, h3, h4, h5{
 }
 h1{}
 h2{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-size: 28px;
   color: #000000;
   font-weight: 600;
 }
 h3{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -35,14 +35,14 @@ h3{
   color: #484848;
 }
 h4{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   color: #000000;
 }
 h5{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -51,7 +51,7 @@ h5{
 }
 
 p{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   color: #484848;
   margin: 0;
 }
@@ -370,7 +370,13 @@ p{
   font-size: 14px;
   font-weight: 700;
 }
-
+.nav-item{
+  padding-right: 15px;
+}
+.nav-item button{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 /* ====================Dashbord Tabs End===================== */
 
 /* ====================common css styles=================== */
@@ -466,7 +472,7 @@ p{
   border: none;
 }
 .t-row:first-child{
-  border-top: 20px solid #FFFFFF;
+  border-top: 20px solid #FAFAFA;
 }
 .text-green{
   color: #2F7669 !important;
@@ -537,7 +543,7 @@ p{
 
 .font-12{
   font-size: 14px;
-  color: #858585;
+  color: #484848;
 }
 .font-8{
   font-size: 8px;
@@ -586,12 +592,41 @@ p{
   padding: 10px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
 }
+.radio-div-slct{
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA !important;
+  border-radius: 5px;
+  padding: 10px 10px 10px 0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+.h-auto{
+  background: #FFFFFF;
+  border: 1px solid #0796D0;
+  color: #0796D0;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+.h-auto p{
+  color: #0796D0;
+}
+.radio-inner{
+  width: 300px;
+}
+.radio-div-slct option{
+  border: none !important;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif !important;
+  color: #858585 !important;
+  
+}
+
 .selct-field .form-select{
   font-size: 12px;
   font-weight: 600;
   color: #484848;
   border: none;
-  padding: 3px 0 !important;
+  padding: 3px 20px !important;
   background-position: right -1px center !important;
 }
 .doc-area-img{
@@ -632,6 +667,21 @@ p{
   background-color:#0796D0;  
   border-color: #0796D0;
 }
+
+.form-select:focus{
+  box-shadow: none !important;
+}
+.form-check-input:checked[type=radio]{
+  background-image: url(../assets/images/radio-tick.svg) !important;
+  background-position: 3px 4px !important;
+  background-size: 8px !important;
+}
+.selct-opt{
+  font-weight: 600;
+  font-size: 14px !important;
+  padding: 3px 10px !important;
+}
+
 /* ==================================form css start==================================*/
 .form-fields {
   background: #FFFFFF;
@@ -763,12 +813,19 @@ p{
   .ins-list li {
     padding: 0 0 20px 0;
   }
-  .ins-list li p{
-    color: #FFFFFF;
+
+  .dashboard-bottom {
+    margin-top: 30px;
+    position: unset;
+    width: 100% !important;
   }
+  
 }
 
 @media only screen and (max-width: 425px) {
+  h2{
+    font-size: 20px;
+  }
   .main-body-div {
     padding: 0 10px;
   }
@@ -841,15 +898,51 @@ p{
   .inner-border-styling{
     padding: 6rem !important;
   }
-  .dashboard-bottom {
-    margin-top: 30px;
-    position: unset;
-    width: 100% !important;
+  .dashbord-inner-area .clr {
+    font-size: 12px;
+  }
+  .dashbord-inner-area .con {
+    font-size: 11px;
+    font-weight: 500;
+  }
+.dow-btn {
+  width: 180px !important;
+  font-size: 12px !important;
+  }
+  .radio-inner{
+    width: 200px;
+  }
+  .dashbord-tabs .nav-tabs .nav-link{
+    font-size: 12px;
+  }
+  .dashbord-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    font-size: 12px !important;
+  }
+  .pagination a{
+    padding: 8px 12px;
+  }
+  .heading-area p{
+    font-size: 12px;
+  }
+  .view-inner-area {
+    padding: 30px 0 0 0;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .doc-part {
     width: 250px;
+  }
+  .navigation__links{
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .body-div{
+    padding: 10px;
+  }
+  .dashbord-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    font-size: 11px !important;
   }
 }
