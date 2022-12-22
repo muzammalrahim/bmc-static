@@ -25,6 +25,7 @@ import DashboardTableMain from '../views/DashboardTableMain.vue'
 import DashboardScan from '../views/DashboardScan.vue'
 import DashboardUploadQR from '../views/DashboardUploadQR.vue'
 import DashboardViewQR from '../views/DashboardViewQR.vue'
+import PdfView from '../views/PdfView.vue'
 
 // import { createPopper } from '@popperjs/core';
 
@@ -172,6 +173,11 @@ const router = createRouter({
       path: '/view-qr',
       name: 'view-qr',
       component: DashboardViewQR
+    },
+    {
+      path: '/pdf',
+      name: 'view-pdf',
+      component: PdfView
     },
     
   ]

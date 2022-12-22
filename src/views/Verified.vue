@@ -23,6 +23,14 @@
             </button>
           </router-link>
         </div>
+
+        <div class="btn-div pt-4">
+          <router-link to="/pdf">
+            <button class="main-btn">
+              PDF-BMC
+            </button>
+          </router-link>
+        </div>
       </div>
   </div>
   <FooterCompVue/>
