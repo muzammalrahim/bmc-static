@@ -336,7 +336,7 @@
 
     </div>
   </div>
-  <button class="m-3" @click="exportToPDF">Export to PDF</button>
+  <button class="m-3 btn btn-primary" @click="exportToPDF">Export to PDF</button>
 </template>
 
 <script>
